@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/death-calendar/static/css/main.2bc20629.css",
-    "main.js": "/death-calendar/static/js/main.9587151c.js",
+    "main.js": "/death-calendar/static/js/main.0ad6b69b.js",
     "index.html": "/death-calendar/index.html",
     "main.2bc20629.css.map": "/death-calendar/static/css/main.2bc20629.css.map",
-    "main.9587151c.js.map": "/death-calendar/static/js/main.9587151c.js.map"
+    "main.0ad6b69b.js.map": "/death-calendar/static/js/main.0ad6b69b.js.map"
   },
   "entrypoints": [
     "static/css/main.2bc20629.css",
-    "static/js/main.9587151c.js"
+    "static/js/main.0ad6b69b.js"
   ]
 }
