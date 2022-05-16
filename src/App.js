@@ -31,22 +31,9 @@ function App() {
     if (!newAppoinment.email) {
       return window.alert("empty email field");
     }
-    const newDate = new Date().getTime();
-    const maxDate = agenda.reduce(
-      (prev, curr) =>
-        prev.uploadDate > curr.uploadDate ? prev.uploadDate : curr.uploadDate,
-      0
-    );
-    const diffMinutes = (newDate - maxDate) / (1000 * 60);
-
-    if (diffMinutes < 60)
-      return window.alert(
-        `Wait ${parseInt(60 - diffMinutes)} minutes before scheduling again`
-      );
-
+    
     const newObject = {
       date: format(selected, "yyyy/MM/dd"),
-      uploadDate: newDate,
       startTime: hour,
       email: newAppoinment.email,
     };
