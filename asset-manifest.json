@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/danielits/death-calendar/static/css/main.2bc20629.css",
+    "main.js": "/danielits/death-calendar/static/js/main.9587151c.js",
+    "index.html": "/danielits/death-calendar/index.html",
+    "main.2bc20629.css.map": "/danielits/death-calendar/static/css/main.2bc20629.css.map",
+    "main.9587151c.js.map": "/danielits/death-calendar/static/js/main.9587151c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bc20629.css",
+    "static/js/main.9587151c.js"
+  ]
+}
